@@ -8,16 +8,29 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/themaxsandelin/todo.git"
+=======
+    "url": "git+https://github.com/deallen7/todo.git"
+>>>>>>> b236e332c8ef2eb48e845e4d19f4f6da4cb05ff1
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/themaxsandelin/todo/issues"
   },
   "homepage": "https://github.com/themaxsandelin/todo#readme",
   "dependencies": {
     "express": "^4.16.4"
+=======
+    "url": "https://github.com/deallen7/todo/issues"
+  },
+  "homepage": "https://github.com/deallen7/todo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+>>>>>>> b236e332c8ef2eb48e845e4d19f4f6da4cb05ff1
   }
 }
