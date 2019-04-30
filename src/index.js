@@ -14,6 +14,10 @@ api.listen(3000, () => {
   console.log('API up and running!');
 });
 
+api.post('/add', (req, res) => {
+ res.send('It works!');
+});
+
 // <<<<<<< HEAD
 // api.get('/', (req, res) => {
 //  console.log(req);
