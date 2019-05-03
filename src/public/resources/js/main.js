@@ -141,3 +141,19 @@ function sendItemToAPI(item) {
     console.log(e);
   });
 }
+
+function sendItemToAPI(item) {
+  var req = new XMLHttpRequest();
+  req.open('POST', '/add');
+  req.send(item);
+
+req.addEventListener('load', () => {
+    console.log(req.responseText);
+    console.log('Request done!');
+  });
+
+req.addEventListener('error', () => {
+    console.log('Shit, something bad happened.');
+    console.log(e);
+  });
+}
