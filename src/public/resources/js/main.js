@@ -29,6 +29,7 @@ document.getElementById('item').addEventListener('keydown', function (e) {
 function addItem (value) {
   addItemToDOM(value);
   document.getElementById('item').value = '';
+  sendItemToAPI(value);
 
   data.todo.push(value);
   dataObjectUpdated();
@@ -119,4 +120,34 @@ function addItemToDOM(text, completed) {
   item.appendChild(buttons);
 
   list.insertBefore(item, list.childNodes[0]);
+}
+
+// function sendItemToAPI(item) {
+//   var req = new XMLHttpRequest();
+//   req.open('POST', '/add');
+//   req.setRequestHeader('Content-Type', 'application/json');
+//   req.send(JSON.stringify({ item: item }));
+
+// req.addEventListener('load', () => {
+//     console.log(req.responseText);
+//     console.log('Request done!');
+//   });
+
+// req.addEventListener('error', () => {
+//     console.log('Shit, something bad happened.');
+//     console.log(e);
+//   });
+// }
+
+function sendItemToAPI(item) {
+  console.log(item);
+}
+
+function addItem (value) {
+  addItemToDOM(value);
+  document.getElementById('item').value = '';
+  sendItemToAPI(value);
+
+data.todo.push(value);
+  dataObjectUpdated();
 }
