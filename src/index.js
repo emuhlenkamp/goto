@@ -10,6 +10,9 @@ api.use(express.static(__dirname + '/public'));
 // const bodyParser = require('body-parser');
 
 const api = express();
+api.listen(3000, () => {
+  console.log('API up and running!');
+});
 // api.use(express.static(__dirname + '/public'));
 >>>>>>> api
 // api.use(bodyParser.json());
