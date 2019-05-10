@@ -2,8 +2,13 @@ const express = require('express');
 // const bodyParser = require('body-parser');
 
 const api = express();
-api.use(express.static(__dirname + '/public'));
+// api.use(express.static(__dirname + '/public'));
 // api.use(bodyParser.json());
+
+api.use((req, res, next) => {
+ console.log('Hello');
+ next();
+});
 
 api.listen(3000, () => {
   console.log('API up and running!');
@@ -15,7 +20,6 @@ api.listen(3000, () => {
 // });
 
 // api.post('/add', (req, res) => {
-//  console.log(req.body);
 //  res.send('It works!');
 // });
 
