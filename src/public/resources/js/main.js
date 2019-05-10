@@ -186,5 +186,4 @@ function addItem (value) {
 
 data.todo.push(value);
   dataObjectUpdated();
->>>>>>> api:src/public/resources/js/main.js
 }
