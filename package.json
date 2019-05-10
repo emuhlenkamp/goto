@@ -25,6 +25,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.16.4"
+<<<<<<< HEAD
 =======
     "url": "https://github.com/deallen7/todo/issues"
   },
@@ -34,4 +35,8 @@
     "express": "^4.16.3"
 >>>>>>> b236e332c8ef2eb48e845e4d19f4f6da4cb05ff1
   }
+=======
+  },
+  "devDependencies": {}
+>>>>>>> api
 }
