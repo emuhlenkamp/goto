@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deallen7/todo.git"
+    "url": "git+https://github.com/emuhlenkamp/todo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deallen7/todo/issues"
+    "url": "https://github.com/emuhlenkamp/todo/issues"
   },
-  "homepage": "https://github.com/deallen7/todo#readme",
+  "homepage": "https://github.com/emuhlenkamp/todo#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
