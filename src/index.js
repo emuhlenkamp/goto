@@ -14,7 +14,10 @@ api.get('/', (req, res) => {
   res.send('Hello, world!');
 });
 
-
+api.post('/add', (req, res) => {
+ console.log(req.body);
+ res.send('It works!');
+});
 
 
 // api.use(bodyParser.json());
@@ -35,11 +38,9 @@ api.get('/', (req, res) => {
 // });
 
 
-// api.post('/add', (req, res) => {
-//  res.send('It works!');
-// });
 
 
 
 
->>>>>>> 2882554bd0dc424a0bdea0496e4165a085a1927c
+
+
