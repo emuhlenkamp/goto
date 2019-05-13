@@ -8,47 +8,19 @@
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
     "url": "git+https://github.com/emuhlenkamp/todo.git"
-=======
-<<<<<<< HEAD
-    "url": "git+https://github.com/themaxsandelin/todo.git"
-=======
-    "url": "git+https://github.com/deallen7/todo.git"
->>>>>>> b236e332c8ef2eb48e845e4d19f4f6da4cb05ff1
->>>>>>> 2882554bd0dc424a0bdea0496e4165a085a1927c
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-<<<<<<< HEAD
     "url": "https://github.com/emuhlenkamp/todo/issues"
-=======
-<<<<<<< HEAD
-    "url": "https://github.com/themaxsandelin/todo/issues"
-  },
-  "homepage": "https://github.com/themaxsandelin/todo#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.16.4"
-<<<<<<< HEAD
-=======
-    "url": "https://github.com/deallen7/todo/issues"
->>>>>>> 2882554bd0dc424a0bdea0496e4165a085a1927c
+
   },
   "homepage": "https://github.com/emuhlenkamp/todo#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-<<<<<<< HEAD
     "express": "^4.16.4"
-=======
-    "express": "^4.16.3"
->>>>>>> b236e332c8ef2eb48e845e4d19f4f6da4cb05ff1
->>>>>>> 2882554bd0dc424a0bdea0496e4165a085a1927c
-  }
-=======
   },
   "devDependencies": {}
->>>>>>> api
 }
