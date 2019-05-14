@@ -11,11 +11,18 @@ api.post('/add', (req, res) => {
  console.log('Post request received');
 });
 
+<<<<<<< HEAD
 //api.get('/', (req, res) => {
 //   console.log(req);
 //   res.send('Hello, world!');
 // });
 
+=======
+api.post('/add', (req, res) => {
+ console.log(req.body);
+ res.send('It works!');
+});
+>>>>>>> api
 
 // const bodyParser = require('body-parser');
 
@@ -37,7 +44,12 @@ api.post('/add', (req, res) => {
 // });
 
 
-// api.post('/add', (req, res) => {
-//  res.send('It works!');
-// });
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> api
